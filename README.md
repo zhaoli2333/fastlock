@@ -18,7 +18,7 @@
 
 
 <a name="Ocxgj"></a>
-#### 压测结果：
+#### 压测结果（FastLock，ReentrantLock，synchronized对比）：
 <a name="FwLMK"></a>
 无并发：
 Benchmark                   Mode  Cnt  Score   Error  Units<br />TestFastLock.fastlock       avgt   10  0.097 ± 0.002  us/op<br />TestFastLock.reentrantLock  avgt   10  0.092 ± 0.003  us/op<br />TestFastLock.synchronized   avgt   10  0.164 ± 0.003  us/op<br />

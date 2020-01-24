@@ -29,7 +29,6 @@
 | TestFastLock.synchronized | avgt | 10 | 0.164 ± 0.003 |  | us/op |
 
 
-
 <br />
 
 <a name="aIrpd"></a>
@@ -51,7 +50,7 @@
 | TestFastLock.synchronized | avgt | 10 | 0.815 ± 0.031 |  | us/op |
 
 
-<br />
+
 <br />
 
 <a name="savg2"></a>

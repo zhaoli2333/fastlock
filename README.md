@@ -19,28 +19,70 @@
 
 <a name="Ocxgj"></a>
 #### 压测结果（FastLock，ReentrantLock，synchronized对比）：
-<a name="FwLMK"></a>
-无并发：
-Benchmark                   Mode  Cnt  Score   Error  Units<br />TestFastLock.fastlock       avgt   10  0.097 ± 0.002  us/op<br />TestFastLock.reentrantLock  avgt   10  0.092 ± 0.003  us/op<br />TestFastLock.synchronized   avgt   10  0.164 ± 0.003  us/op<br />
+
+#### 无并发：
+
+| Benchmark | Mode | Cnt | Score | Error | Units |
+| --- | --- | --- | --- | --- | --- |
+| TestFastLock.fastlock | avgt | 10 | 0.097 ± 0.002 |  | us/op |
+| TestFastLock.reentrantLock | avgt | 10 | 0.092 ± 0.003 |  | us/op |
+| TestFastLock.synchronized | avgt | 10 | 0.164 ± 0.003 |  | us/op |
+
+
+
 <br />
 
 <a name="aIrpd"></a>
-10并发：
-Benchmark                   Mode  Cnt  Score   Error  Units<br />TestFastLock.fastlock       avgt    5  0.286 ± 0.017  us/op<br />TestFastLock.reentrantLock  avgt    5  0.280 ± 0.002  us/op<br />TestFastLock.synchronized   avgt    5  0.445 ± 0.003  us/op<br />
+#### 10并发：
+| Benchmark | Mode | Cnt | Score | Error | Units |
+| --- | --- | --- | --- | --- | --- |
+| TestFastLock.fastlock | avgt | 10 | 0.286 ± 0.017 |  | us/op |
+| TestFastLock.reentrantLock | avgt | 10 | 0.280 ± 0.002 |  | us/op |
+| TestFastLock.synchronized | avgt | 10 | 0.445 ± 0.003 |  | us/op |
+
+
 
 <a name="IU514"></a>
-20并发 ：
-Benchmark                   Mode  Cnt  Score   Error  Units<br />TestFastLock.fastlock       avgt    5  0.481 ± 0.010  us/op<br />TestFastLock.reentrantLock  avgt    5  0.461 ± 0.040  us/op<br />TestFastLock.synchronized   avgt    5  0.815 ± 0.031  us/op<br />
+#### 20并发 ：
+| Benchmark | Mode | Cnt | Score | Error | Units |
+| --- | --- | --- | --- | --- | --- |
+| TestFastLock.fastlock | avgt | 10 | 0.481 ± 0.010 |  | us/op |
+| TestFastLock.reentrantLock | avgt | 10 | 0.461 ± 0.040 |  | us/op |
+| TestFastLock.synchronized | avgt | 10 | 0.815 ± 0.031 |  | us/op |
+
+
+<br />
 <br />
 
 <a name="savg2"></a>
-50并发：
-Benchmark                   Mode  Cnt  Score   Error  Units<br />TestFastLock.fastlock       avgt    5  1.307 ± 0.128  us/op<br />TestFastLock.reentrantLock  avgt    5  1.209 ± 0.163  us/op<br />TestFastLock.synchronized   avgt    5  2.139 ± 0.104  us/op<br />
+#### 50并发：
+| Benchmark | Mode | Cnt | Score | Error | Units |
+| --- | --- | --- | --- | --- | --- |
+| TestFastLock.fastlock | avgt | 10 | 1.307 ± 0.128 |  | us/op |
+| TestFastLock.reentrantLock | avgt | 10 | 1.209 ± 0.163 |  | us/op |
+| TestFastLock.synchronized | avgt | 10 | 2.139 ± 0.104 |  | us/op |
+
+
+<br />
 
 <a name="Kni5E"></a>
-100并发
-Benchmark                   Mode  Cnt  Score   Error  Units<br />TestFastLock.fastlock       avgt    5  2.233 ± 0.083  us/op<br />TestFastLock.reentrantLock  avgt    5  2.330 ± 0.332  us/op<br />TestFastLock.synchronized   avgt    5  3.747 ± 0.090  us/op<br />
+#### 100并发
+| Benchmark | Mode | Cnt | Score | Error | Units |
+| --- | --- | --- | --- | --- | --- |
+| TestFastLock.fastlock | avgt | 10 | 2.233 ± 0.083 |  | us/op |
+| TestFastLock.reentrantLock | avgt | 10 | 2.330 ± 0.332 |  | us/op |
+| TestFastLock.synchronized | avgt | 10 | 3.747 ± 0.090 |  | us/op |
+
+
+<br />
 
 <a name="L1ybr"></a>
-500并发
-Benchmark                   Mode  Cnt   Score   Error  Units<br />TestFastLock.fastlock       avgt    5  12.141 ± 1.225  us/op<br />TestFastLock.reentrantLock  avgt    5  11.515 ± 0.956  us/op<br />TestFastLock.synchronized   avgt    5  12.854 ± 0.120  us/op
+#### 500并发
+| Benchmark | Mode | Cnt | Score | Error | Units |
+| --- | --- | --- | --- | --- | --- |
+| TestFastLock.fastlock | avgt | 10 | 12.141 ± 1.225 |  | us/op |
+| TestFastLock.reentrantLock | avgt | 10 | 11.515 ± 0.956 |  | us/op |
+| TestFastLock.synchronized | avgt | 10 | 12.854 ± 0.120 |  | us/op |
+
+
+
